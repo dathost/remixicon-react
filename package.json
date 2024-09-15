@@ -13,18 +13,13 @@
   },
   "homepage": "https://github.com/dathost/remixicon-react",
   "scripts": {
-    "clean-react": "rm -rf publish-react/*.js publish-react/*.d.ts publish-react/**/*.js publish-react/**/*.d.ts",
-    "clean": "npm clean-react",
-    "build-react": "npm run clean-react && node scripts/generate-react.js && cp README.md publish-react/README.md && cp CHANGELOG.md publish-react/CHANGELOG.md && cp LICENSE publish-react/LICENSE"
+    "build": "rm -rf build dist/*.js dist/*.d.ts && node build.js && cp README.md dist/README.md && cp LICENSE dist/LICENSE"
   },
   "dependencies": {
-    "remixicon": "3.2.0"
+    "@svgr/cli": "8.1.0",
+    "@types/react": "18.3.5",
+    "remixicon": "4.3.0",
+    "typescript": "5.6.2"
   },
-  "devDependencies": {
-    "@swc/core": "^1.3.56",
-    "@types/node": "^18.16.3",
-    "@types/react": "^18.2.4",
-    "react": "^18.2.0",
-    "semver": "^7.3.5"
-  }
+  "packageManager": "pnpm@9.10.0"
 }

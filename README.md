@@ -1,14 +1,7 @@
-# remixicon-react [![npm package](https://img.shields.io/npm/v/remixicon-react.svg?style=flat-square)](https://npmjs.org/package/remixicon-react) [![Remix Icons version](https://img.shields.io/badge/remixicon-v2.4.0-blue.svg?style=flat-square)](https://remixicon.com/) [![build status](https://img.shields.io/travis/bayesimpact/remixicon-react/master.svg?style=flat-square)](https://travis-ci.org/bayesimpact/remixicon-react)
-[Remix Icons](https://remixicon.com/) for React packaged as single components
-
-This repo is based on the very good [mdi-react](https://github.com/levrik/mdi-react) package.
-
 ## Installation
 
 ```bash
 npm install dathost-remixicon-react
-# or if you use Yarn
-yarn add dathost-remixicon-react
 ```
 
 ## Usage
