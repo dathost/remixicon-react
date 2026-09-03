@@ -1,7 +1,8 @@
 {
   "name": "dathost-remixicon-react",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Remix Icon for React",
+  "type": "module",
   "keywords": [
     "remixicon",
     "react",
@@ -24,9 +25,12 @@
   "peerDependencies": {
     "react": ">=0.14.0"
   },
-  "typings": "./dist/typings.d.ts",
   "sideEffects": false,
-  "dependencies": {
-    "typescript": "^5.6.2"
+  "exports": {
+    "./*": {
+      "types": "./*.d.ts",
+      "default": "./*.js"
+    },
+    "./package.json": "./package.json"
   }
 }
