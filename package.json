@@ -19,7 +19,7 @@
     "@svgr/cli": "8.1.0",
     "@types/react": "19.2.18",
     "remixicon": "4.9.1",
-    "typescript": "5.7.3"
+    "typescript": "7.0.2"
   },
   "packageManager": "pnpm@11.25.0"
 }
