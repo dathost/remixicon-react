@@ -13,7 +13,7 @@
   },
   "homepage": "https://github.com/dathost/remixicon-react",
   "scripts": {
-    "build": "rm -rf build dist/*.js dist/*.d.ts && node build.js && cp README.md dist/README.md && cp LICENSE dist/LICENSE"
+    "build": "rm -rf build && find dist -mindepth 1 -not -name package.json -delete && node build.js && cp README.md dist/README.md && cp LICENSE dist/LICENSE"
   },
   "dependencies": {
     "@svgr/cli": "8.1.0",
